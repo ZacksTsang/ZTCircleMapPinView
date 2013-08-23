@@ -1,4 +1,4 @@
 ZTCircleMapPinView
 ==================
 
-show the map pin view to center view what inspired by CItyGuide
+show the map pin view to center view what inspired by CityGuide
