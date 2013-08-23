@@ -3,6 +3,9 @@ ZTCircleMapPinView
 
 show the map pin view to center view what inspired by CityGuide
 
+#GET
+  	pod 'ZTCircleMapPinView'
+
 #IOS Require
   ios5 and above
 

@@ -1,6 +1,10 @@
 Pod::Spec.new do |s|
   s.name     = 'ZTCircleMapPinView'
+<<<<<<< HEAD
   s.version  = '0.0.1'
+=======
+  s.version  = '0.01'
+>>>>>>> 6511bb13c55917c2b98d43fe5908af1092cb4ee1
   s.platform = :ios
   s.summary  = 'show the map pin view to center view what inspired by CityGuide.'
   s.homepage = 'https://github.com/ZacksTsang/ZTCircleMapPinView'
