@@ -14,7 +14,10 @@ make a annotionView what you want [just like the ZTContentView]
 ##Third
 overwrite the method of ZTMapView 
 
-    if ([annotation isKindOfClass:[ZTAnnotation class]]) {
+    - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
+    {
+    
+       if ([annotation isKindOfClass:[ZTAnnotation class]]) {
         
         _mapView.detailView = (ZTAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:@"DetailsAnnotationView"];
         //        _detailView=nil;
@@ -28,9 +31,14 @@ overwrite the method of ZTMapView
         
         
         
-        [_mapView showCirclePinView];
+          [_mapView showCirclePinView];
         
         
-        return _mapView.detailView;
-  	}
+         return _mapView.detailView;
+	    }
+    
+
+       return nil;
+    }
+
     
