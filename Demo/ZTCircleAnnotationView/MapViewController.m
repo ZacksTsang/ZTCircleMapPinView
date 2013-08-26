@@ -74,7 +74,7 @@
         
         if (!_mapView.detailView) {
             _mapView.detailView = [[ZTAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"DetailsAnnotationView"];
-            
+            //view and line width
             [_mapView.detailView addCenterView:[[ZTContentView alloc] init] andRadius:30];
         }
         
