@@ -3,6 +3,12 @@ ZTCircleMapPinView
 
 show the map pin view to center view what inspired by CityGuide
 
+![Preview](http://ww3.sinaimg.cn/small/b0c9ca8cgw1e8jk5ehj8ej20hs0qoq7t.jpg) 
+![Preview](http://ww4.sinaimg.cn/small/b0c9ca8cgw1e8jk54pchej20hs0qodku.jpg)
+![Preview](http://ww1.sinaimg.cn/small/b0c9ca8cgw1e8jk57yoofj20hs0qodkp.jpg)
+![Preview](http://ww2.sinaimg.cn/small/b0c9ca8cgw1e8jk5a2yg9j20hs0qowil.jpg)
+![Preview](http://ww1.sinaimg.cn/small/b0c9ca8cgw1e8jk5beh9mj20hs0qoq79.jpg)
+
 #GET
   	pod 'ZTCircleMapPinView'
 
